@@ -1,0 +1,169 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 9px;
+	padding: 0;
+    border: solid cyan 5px;
+	}
+body { 
+    background-color: lightcoral;
+    font: 90% amaranth, sans-serif;
+    font-weight: 600;
+	}
+p { 
+text-align: center;
+	}
+a:link { 
+    text-decoration: none;
+    color: cyan;
+    font-size: 15pt;
+	}
+a:visited { 
+    color: gold;
+	}
+a:hover, a:focus, a:active { 
+    
+	}
+abbr {
+    text-decoration: none;
+	}
+
+
+/* specific divs */
+.page-wrapper { 
+    border: solid gold;
+	}
+
+.intro { 
+    margin-bottom: 30px;
+	}
+
+header h1 { 
+    font-size: 40pt;
+    color: cyan;
+    text-transform: uppercase;
+    text-align: right;
+    text-shadow: 3px 2px blue;
+    margin-bottom: 4px;
+	}
+header h2 { 
+    margin-bottom: 15px;
+    margin-top: 0px;
+    font-size: 20pt;
+    color: gold;
+    text-transform: uppercase;
+    text-align: right;
+    text-shadow: 3px 2px blue;
+	}
+header {
+    margin-right: 80px;
+    margin-left: 80px;
+    border-bottom: solid blue 3px; 
+}
+
+.summary {
+    text-align: center;
+    margin: 30px 100px 30px 100px;
+	}
+.summary p {
+    font-size: 14pt;
+    color: gold
+	}
+
+.preamble {
+    padding: 20px;
+    outline: solid Cyan;
+    margin: 30px 800px 30px 5px;
+	}
+.preamble h3 {
+    text-align: right;
+    font-size: 20pt;
+    color: gold;
+    text-shadow: 3px 2px blue;
+}
+.explanation {	
+    text-align: center;
+    padding: 20px;
+    outline: solid Cyan;
+    margin: 30px 600px 30px 5px;
+	}
+.explanation h3 {
+    text-align: right;
+    font-size: 20pt;
+    color: gold;
+    text-shadow: 3px 2px blue;
+}
+.participation {
+    padding: 20px;
+    outline: solid Cyan;
+    margin: 30px 400px 30px 5px;
+}
+.participation h3 {
+    text-align: right;
+    font-size: 20pt;
+    color: gold;
+    text-shadow: 3px 2px blue;
+}
+.benefits {
+    padding: 20px;
+    outline: solid Cyan;
+    margin: 30px 200px 30px 5px;
+}
+.benefits h3 {
+    text-align: right;
+    font-size: 20pt;
+    color: gold;
+    text-shadow: 3px 2px blue;
+}
+.requirements {
+    padding: 20px;
+    outline: solid Cyan;
+    margin: 30px 5px 30px 5px;
+}
+.requirements h3 {
+    text-align: right;
+    font-size: 20pt;
+    color: gold;
+    text-shadow: 3px 2px blue;
+}
+footer { 
+    text-align: center;
+    text-shadow: 3px 2px gold;
+    margin: 0;
+	}
+footer a:visited {
+    color: blue;
+}
+.sidebar .wrapper { 
+    display: flex;
+    margin: 0px 40px;
+	}
+.sidebar h3.select { 
+    font-size: 20pt;
+    color: gold;
+    text-shadow: 3px 2px blue;
+	}
+.sidebar h3.archives { 
+    font-size: 20pt;
+    color: gold;
+    text-shadow: 3px 2px blue;
+	}
+.sidebar h3.resources { 
+    font-size: 20pt;
+    color: gold;
+    text-shadow: 3px 2px blue;
+	}
+.sidebar ul {
+    list-style: none;
+    border-left: solid gold 10px;
+    margin: 10px;
+	}

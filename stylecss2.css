@@ -1,0 +1,114 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	border-left: solid green 30px;
+	}
+body { 
+    font: 90% american typewriter, serif;
+	}
+p { 
+    margin-right: 5px;
+	}
+h3 { 
+    color: green;
+    font-weight: bold;
+    font-size: 35pt;
+    margin: 0px 5px 0px 0px;
+    font-variant: small-caps;
+	}
+abbr {
+    border-bottom: none !important;
+    cursor: inherit !important;
+    text-decoration: none !important;
+	}
+a:link {
+    text-decoration: none;
+    color: green;
+}
+a:visited {
+    color: palevioletred;
+}
+
+/* specific divs */
+.page-wrapper { 
+    border: solid palevioletred 1px; 
+    margin: 5px;
+	}
+header h1 { 
+    font-size: 50pt;
+    margin: 0;
+	}
+header h2 { 
+    font-size: 40pt;
+    margin-top: 0;
+    margin-bottom: 30px;
+	}
+header {
+    margin-left: 5px;
+    text-align: left;
+    position: fixed;
+    opacity: .5;
+    color: palevioletred;
+    font-variant: small-caps;
+}
+
+.summary {
+    text-align: right;
+    margin-left: 450px;
+    font-size: 18pt;
+	}
+.summary a:link {
+    font-weight: bold;
+    font-size: 25pt
+	}
+
+.preamble {
+    text-align: right;
+    margin-left: 450px;
+	}
+.explanation {
+    text-align: right;
+    margin-left: 450px;
+}
+.participation {
+    text-align: right;
+    margin-left: 450px;
+}
+.benefits {
+    text-align: right;
+    margin-left: 450px;
+}
+.requirements {
+    text-align: right;
+    margin-left: 450px;
+}
+footer { 
+    text-align: right;
+	}
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 24%;
+    width: 50em;
+    margin-left: 50px;
+}
+.sidebar h3{ 
+    color: palevioletred;
+	}
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+	}
+.sidebar li {
+    font-size: 12pt;
+	}
